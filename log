@@ -1,0 +1,24 @@
+Tue Mar 16 22:37:36 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:19: error: expected expression before ‘]’ token
+   *suma = sumaN(a[],m);
+                   ^
+Compilation failed
+Tue Mar 16 22:38:00 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:20: error: expected expression before ‘]’ token
+   *suma = sumaN(a[ ],m);
+                    ^
+Compilation failed
+Tue Mar 16 22:38:05 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|6
+total_score: 10/70
+3dab0ae
